@@ -11,7 +11,7 @@ baixar.addEventListener("click", ()=>{
         body: JSON.stringify(post)
     }
     
-    fetch("http://localhost:3000/download", option).then(res=>{
+    fetch("https://video-download-server.onrender.com/download", option).then(res=>{
         console.log(res)
     })
 })
